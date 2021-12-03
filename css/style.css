@@ -1,0 +1,279 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  outline: 0px;
+  box-sizing: border-box;
+  font-family: poppins;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+
+/* menu styling   */
+
+.menu {
+  display: flex;
+  width: 80%;
+  align-items: center;
+  justify-content: center;
+  margin: 25px auto;
+}
+.menu .brand {
+  width: 25%;
+  float: left;
+}
+.menu .brand img {
+  width: 85%;
+}
+.menu .main-menu {
+  width: 75%;
+}
+.menu .main-menu ul {
+  float: right;
+}
+.menu .main-menu ul li {
+  display: inline-block;
+  padding: 10px;
+}
+.menu .main-menu ul li a {
+  color: #989898;
+}
+.menu .main-menu ul li:first-child a {
+  color: #5ba219;
+}
+.menu .main-menu ul li:last-child a {
+  background-image: linear-gradient(#5ba219, green);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 6px;
+  transition: 0.4s;
+  font-weight: 500;
+}
+.menu .main-menu ul li:last-child a:hover {
+  box-shadow: 3px 2px 11px -3px green;
+}
+
+/* #### diet styling #### */
+.diet {
+  background-image: url(../images/female/1-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.full-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 70px;
+}
+.left-content {
+  width: 38%;
+}
+.left-content h2 {
+  font-size: 50px;
+  line-height: 80px;
+  color: rgb(36, 36, 36);
+}
+.left-content h2 span {
+  color: green;
+}
+.left-content p {
+  font-size: 16px;
+  line-height: 30px;
+  color: rgb(57, 57, 57);
+}
+.left-content a {
+  background-image: linear-gradient(#5ba219, green);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 6px;
+  transition: 0.4s;
+  margin-top: 1.5rem;
+  display: inline-block;
+  font-weight: 500;
+}
+.left-content a:hover {
+  box-shadow: 3px 2px 11px -3px green;
+}
+
+.right-content {
+  width: 45%;
+}
+.right-content img {
+  width: 80%;
+  float: right;
+}
+
+/* About me section styling */
+
+.about-me {
+  background-color: #e8f9df;
+  background-image: url(../images/female/2bg.png);
+  padding-top: 30px;
+  margin-top: 150px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.aboutme-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.aboutme-main .left-section {
+  width: 45%;
+}
+.aboutme-main .left-section img {
+  width: 60%;
+  margin-bottom: -6px;
+}
+.aboutme-main .right-section {
+  width: 40%;
+}
+.aboutme-main .right-section h2 {
+  font-size: 40px;
+  color: rgb(36, 36, 36);
+}
+.aboutme-main .right-section p {
+  font-size: 16px;
+  line-height: 30px;
+  color: rgb(57, 57, 57);
+}
+.aboutme-main .right-section a {
+  background-image: linear-gradient(#5ba219, green);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 6px;
+  transition: 0.4s;
+  margin-top: 1.5rem;
+  display: inline-block;
+  font-weight: 500;
+}
+.aboutme-main .right-section a:hover {
+  box-shadow: 3px 2px 11px -3px green;
+}
+.my-recepies {
+  margin-top: 150px;
+}
+.my-recepies .top-section {
+  width: 60%;
+  text-align: center;
+  margin: auto;
+}
+.my-recepies .top-section h2 {
+  font-size: 40px;
+  color: rgb(36, 36, 36);
+}
+.my-recepies .top-section p {
+  font-size: 16px;
+  line-height: 30px;
+  color: rgb(57, 57, 57);
+}
+.my-recepies .card-section {
+  display: flex;
+  justify-content: center;
+}
+.my-recepies .card-section .card {
+  width: 25%;
+  box-shadow: 0px 0px 16px -2px #abccab;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 30px;
+  margin-top: 50px;
+}
+.my-recepies .card-section .card img {
+  width: 100%;
+}
+.my-recepies .card-section .card h2 {
+  color: rgb(36, 36, 36);
+}
+.my-recepies .card-section .card p {
+  font-size: 16px;
+  line-height: 30px;
+  color: rgb(57, 57, 57);
+}
+
+/* special part styling */
+
+.special {
+  margin-top: 150px;
+  background-image: url(../images/female/delicious.bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: contain;
+
+  position: relative;
+}
+.special h1 {
+  text-align: center;
+  font-size: 40px;
+}
+.special .image {
+  width: 60%;
+  margin: auto;
+}
+.special .image img {
+  width: 100%;
+}
+.special .image a {
+  color: rgb(55, 55, 55);
+  padding: 10px 20px;
+  font-weight: 500;
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  width: 20%;
+  box-shadow: 0px 0px 16px -2px #abccab;
+  display: inline-block;
+  border-left: 10px solid orange;
+  font-weight: 800;
+  font-size: 25px;
+}
+
+/* social-contributor styling */
+
+.social-contributor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  box-shadow: 0px 0px 16px -2px #abccab;
+  border-radius: 10px;
+  width: 87%;
+  margin: 150px auto;
+  text-align: center;
+}
+.social-contributor .contributor {
+  width: 30%;
+}
+.social-contributor .contributor h1 {
+  color: rgb(36, 36, 36);
+  font-size: 35px;
+  margin-bottom: 0px !important;
+}
+.social-contributor .contributor p {
+  color: rgb(116, 116, 116);
+  font-size: 15px;
+  margin-top: 0px;
+}
+
+/* footer section design */
+footer {
+  background-color: green;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+footer h2 {
+  font-size: 35px;
+  margin-bottom: 0px;
+}
+footer h2 span {
+  color: orange;
+}
+footer p {
+  margin-top: 10px;
+  padding-bottom: 20px;
+}
